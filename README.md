@@ -1,10 +1,10 @@
-# facebook-reels-downloader
+# Instagram-reels-downloader
 Download all reels on channel with a single command.
 
 YOULL NEED TO GET COOKIES FIRST, SEE README_cookie.md for details
 
 
-Facebook Reels Downloader is simple script written with Python that let you download and save your favorite Facebook reels to your computer in HD(High Defination) quality or in SD(Standard Defination) quality.
+Instagram Reels Downloader is simple script written with Python that let you download and save your favorite Facebook reels to your computer in HD(High Defination) quality or in SD(Standard Defination) quality.
 
 Depending upon the available quality of the video, downloader extracts HD quality and SD quality video links. You can choose to download whichever you want. However, in some cases, the only quality available is SD.
 
@@ -15,7 +15,7 @@ All the videos will be in MPEG-4 Part 14 (MP4 😉) format.
 ## Clone & Configure
 ```
 # 1. Clone the repo
-git clone https://github.com/duongxthanh/facebook-reels-downloader.git
+git clone https://github.com/LimAuss/facebook-reels-downloader.git
 
 # 2. Change into the project directory
 cd facebook-reels-downloader
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```
-python reels.py <channel_name> <channel_reel_url> [max_count_download]
+python igreels.py <channel_name> <channel_reel_url> [max_count_download]
 ```
 
     <channel_name>: Your target page or profile name.
